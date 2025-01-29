@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Transactions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Account Transactions</h1>
+        <div class="account-info">
+            <p>Balance: <span id="accountBalance">5000</span></p>
+        </div>
+        <div class="transaction-form">
+            <input type="number" id="amount" placeholder="Enter Amount" min="1">
+            <button onclick="deposit()">Deposit</button>
+            <button onclick="withdraw()">Withdraw</button>
+        </div>
+        <h3>Transaction History</h3>
+        <ul id="transactionHistory"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
