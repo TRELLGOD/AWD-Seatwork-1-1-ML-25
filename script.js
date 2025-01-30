@@ -13,7 +13,7 @@ const players = [
 
 function displayPlayers() {
 const playerBody = document.getElementById('playerBody');
-playerBody.innerHTML = ''; // Clear existing rows
+playerBody.innerHTML = ''; 
 
 players.forEach(player => {
 const row = document.createElement('tr');
