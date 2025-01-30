@@ -18,7 +18,7 @@ h1 {
     text-align: center;
 }
 
-.account-info {/* Reset and base styles */
+.account-info {
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ body {
     padding: 2rem;
 }
 
-/* Container and layout */
+
 .container {
     max-width: 800px;
     margin: 0 auto;
@@ -50,7 +50,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Typography */
+
 h1 {
     text-align: center;
     color: #1a1a1a;
@@ -59,7 +59,7 @@ h1 {
     font-weight: 700;
 }
 
-/* Account information section */
+
 .account-info {
     background-color: #f8f9fa;
     padding: 1.5rem;
@@ -68,7 +68,7 @@ h1 {
     border: 1px solid #e9ecef;
 }
 
-/* Form elements */
+
 .transaction-form {
     display: flex;
     gap: 1rem;
@@ -113,7 +113,7 @@ button:active {
     transform: translateY(1px);
 }
 
-/* Transaction list */
+
 ul {
     list-style-type: none;
     border-radius: 8px;
@@ -138,12 +138,12 @@ li:hover {
     background-color: #f8f9fa;
 }
 
-/* Utility classes */
+
 .text-success { color: #40c057; }
 .text-danger { color: #fa5252; }
 .text-muted { color: #868e96; }
 
-/* Responsive design */
+
 @media (max-width: 600px) {
     body {
         padding: 1rem;
@@ -170,19 +170,19 @@ li:hover {
     }
 }
 
-/* Loading states */
+
 .loading {
     opacity: 0.7;
     pointer-events: none;
 }
 
-/* Focus outline for accessibility */
+
 :focus {
     outline: 3px solid #4dabf7;
     outline-offset: 2px;
 }
 
-/* Custom scrollbar */
+
 ::-webkit-scrollbar {
     width: 8px;
 }
