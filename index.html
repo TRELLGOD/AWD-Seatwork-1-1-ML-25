@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyBank</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Player Management</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to MyBank</h1>
-        <div class="account-info">
-            <p>Balance: <span id="accountBalance">5000</span></p>
-        </div>
-        <div class="transaction-form">
-            <input type="number" id="amount" placeholder="Enter Amount" min="1">
-            <button onclick="deposit()">Deposit</button>
-            <button onclick="withdraw()">Withdraw</button>
-        </div>
-        <h3>Transaction History</h3>
-        <ul id="transactionHistory"></ul>
-    </div>
-    <script src="script.js"></script>
+<div class="container">
+<h1>Player Management</h1>
+<table id="playerTable">
+<thead>
+<tr>
+<th>Name</th>
+<th>Score</th>
+<th>Level</th>
+</tr>
+</thead>
+<tbody id="playerBody">
+<!-- Player rows will be inserted here -->
+</tbody>
+</table>
+<div class="controls">
+<button onclick="sortPlayers('name')">Sort by Name</button>
+<button onclick="sortPlayers('score')">Sort by Score</button>
+<button onclick="sortPlayers('level')">Sort by Level</button>
+</div>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
