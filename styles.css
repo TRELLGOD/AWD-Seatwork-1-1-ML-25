@@ -1,53 +1,76 @@
 body {
-font-family: Arial, sans-serif;
-background-color: #f4f4f4;
-margin: 0;
-padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/technology-futuristic-background_52683-36380.jpg?t=st=1738711568~exp=1738715168~hmac=fbc4422806e6a003c056b9c8020f36b28102de49183b6e97611535b17254601d&w=1380'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: white;
 }
 
 .container {
-max-width: 600px;
-margin: auto;
-background: white;
-padding: 20px;
-border-radius: 5px;
-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
 }
 
 h1 {
-text-align: center;
-}
-
-table {
-width: 100%;
-border-collapse: collapse;
-margin: 20px 0;
-}
-
-th, td {
-padding: 10px;
-text-align: left;
-border-bottom: 1px solid #ddd;
-}
-
-th {
-background-color: #f2f2f2;
+    margin-bottom: 20px;
 }
 
 .controls {
-text-align: center;
+    margin-bottom: 20px;
+}
+
+select, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
 }
 
 button {
-margin: 5px;
-padding: 10px 15px;
-border: none;
-background-color: #007BFF;
-color: white;
-cursor: pointer;
-border-radius: 5px;
+    background-color: #28a745;
+    color: white;
 }
 
 button:hover {
-background-color: #0056b3;
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
 }
