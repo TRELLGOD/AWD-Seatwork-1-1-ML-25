@@ -63,6 +63,7 @@ Description of the project in details.
 
 Store the name, score, and level of 10 players.
 Sort the players based on a specified criterion (name, score, or level).
+Allows you to add more players
 
 ### Key Components
 <!-- TODO: List of Key Components -->
